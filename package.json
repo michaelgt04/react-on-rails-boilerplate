@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Bare Rails and React app",
   "main": "webpack.config.js",
+  "engines": {
+    "node": "7.9.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npm run webpack -- --watch",
