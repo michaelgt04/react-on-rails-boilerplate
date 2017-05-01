@@ -7,7 +7,7 @@
     "node": "7.9.0"
   },
   "scripts": {
-    "heroku-postbuild": "NODE_ENV=production yarn run webpack -- -p",
+    "heroku-postbuild": "NODE_ENV=production npm run webpack -- -p",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "yarn run webpack -- --watch",
     "webpack": "node_modules/.bin/webpack --config ./react/webpack.config.js"
